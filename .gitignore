@@ -1,0 +1,7 @@
+# Binarios compilados
+*.o
+a.out
+Treino/ponteiros
+
+# Arquivos de swap do Vim/Neovim
+*.swp
