@@ -48,7 +48,20 @@ int main(void){
 	 *   o resultado e numero?   -> %d, sem cast
 	 *   o resultado e endereco? -> %p, com (void*)
 	 */
-	printf("%p", (void*)pp);
+	printf("%p\n", (void*)pp);
 
+	printf("%p\n", (void*)*pp);
+
+	printf("%d\n", **pp);
+
+	**pp = 42;
+
+	printf("%d\n", x);
+
+	*pp = &y;
+
+	printf("%d\n", *p);
+		
 	return 0;
-	}
+
+}
