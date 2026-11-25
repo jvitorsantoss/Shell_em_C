@@ -1,7 +1,9 @@
 # Binarios compilados
 *.o
 a.out
-Treino/ponteiros
+# executaveis do treino (arquivos sem extensao)
+Treino/*
+!Treino/*.*
 
 # Arquivos de swap do Vim/Neovim
 *.swp
