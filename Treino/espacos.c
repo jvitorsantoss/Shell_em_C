@@ -4,7 +4,7 @@ int main(void){
 
 	char s[] = "ls    -la /tmp";
 	char *c = s;
-		int i, palavras;
+	int i, palavras;
 	char *prox;
 	
 	palavras = 0;
